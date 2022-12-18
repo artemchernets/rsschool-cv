@@ -3,3 +3,72 @@
     margin: 0 auto;
     
 }
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-width: 1400px;
+    min-height: 100vh;
+    margin: 0;
+    color: rgb(19, 19, 19);
+    font-family: Manrope, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #f2f1f0;
+  
+}
+.all-ul{
+    list-style: none;
+}
+.nav-ul{
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-right: 50px;    
+}
+header{
+    background-color: #829985;
+}
+a{
+    text-decoration: none;
+}
+.main-img{
+    width: 200px;
+    height: 200px;
+}
+.section1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.artem{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.junior{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+footer{
+    background-color: #829985;
+}
+.rs-school{
+    width: 120px;
+    height: 45px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.grid-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 50px;
+    margin-bottom: 50px;
+}
+.section{
+    border-bottom: 1px solid #672f2f;
+}
